@@ -2,8 +2,8 @@ import cv2 as cv
 import numpy as np
 
 
-map_img = cv.imread('caminho interno', cv.IMREAD_UNCHANGED)
-poring_img = cv.imread('caminho interno', cv.IMREAD_UNCHANGED)
+map_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringmap.jpg', cv.IMREAD_UNCHANGED)
+poring_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringclose.jpg', cv.IMREAD_UNCHANGED)
 
 resultado = cv.matchTemplate(map_img, poring_img, cv.TM_CCOEFF_NORMED)
 
