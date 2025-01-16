@@ -7,7 +7,7 @@ map_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/mai
 poring_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringclose.jpg', cv.IMREAD_UNCHANGED)
 
 # dimensões da imagem
-poring_largura = poring_img.shape[1]
+poring_largura = poring_img.shape[1] 
 poring_altura = poring_img.shape[0]
 
 # There are 6 methods to choose from:
