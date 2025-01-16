@@ -11,7 +11,7 @@ poring_largura = poring_img.shape[1]
 poring_altura = poring_img.shape[0]
 
 # There are 6 methods to choose from:
-# TM_CCOEFF, TM_CCOEFF_NORMED, TM_CCORR, TM_CCORR_NORMED, TM_SQDIFF, TM_SQDIFF_NORMED
+# TM_CCOEFF, TM_CCOEFF_NORMED, TM_CCORR, TM_CCORR_NORMED, TM_SQDIFF, TM_SQDIFF_NORMED (testar os 6 para ver o que melhor se adequa a imagem)
 
 metodo = cv.TM_CCOEFF_NORMED
 resultado = cv.matchTemplate(map_img, poring_img, metodo)
