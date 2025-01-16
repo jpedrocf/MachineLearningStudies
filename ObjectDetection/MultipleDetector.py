@@ -3,8 +3,8 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-map_img = cv.imread('path interno', cv.IMREAD_UNCHANGED)
-poring_img = cv.imread('path interno', cv.IMREAD_UNCHANGED)
+map_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringmap.jpg', cv.IMREAD_UNCHANGED)
+poring_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/main/ObjectDetection/poringclose.jpg', cv.IMREAD_UNCHANGED)
 
 # dimensões da imagem
 poring_largura = poring_img.shape[1]
