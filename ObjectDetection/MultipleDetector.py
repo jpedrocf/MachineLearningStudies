@@ -10,7 +10,7 @@ poring_img = cv.imread('https://github.com/jpedrocf/MachineLearningStudies/blob/
 poring_largura = poring_img.shape[1]
 poring_altura = poring_img.shape[0]
 
-# There are 6 methods to choose from:
+# 6 métodos para teste:
 # TM_CCOEFF, TM_CCOEFF_NORMED, TM_CCORR, TM_CCORR_NORMED, TM_SQDIFF, TM_SQDIFF_NORMED (testar os 6 para ver o que melhor se adequa a imagem)
 
 metodo = cv.TM_CCOEFF_NORMED
